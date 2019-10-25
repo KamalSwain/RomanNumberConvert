@@ -18,6 +18,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 3. Run `ng s --open` for a dev server, You will be automatically navigated to http://localhost:4200/. The app will automatically reload if you change any of the source files.
 
+
+----------------------------------------------------------***********-------------------------------------------------------------------
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
