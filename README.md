@@ -1,15 +1,18 @@
 # NumberToRomanNumerals
 
 
-
 ### Created By KamalSwain
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.4.
 
 ## Follow the steps to run the Application.
 
-Run `npm install` for installing dependencies.
+1. Open terminal and clone repository from https://github.com/KamalSwain/RomanNumberConvert.git to local machine by using below cmd.
 
-Run `ng s --open` for a dev server, You will be automatically navigated to http://localhost:4200/. he app will automatically reload if you change any of the source files.
+          git clone https://github.com/KamalSwain/RomanNumberConvert.git
+          
+2. Run `npm install` for installing dependencies.
+
+3. Run `ng s --open` for a dev server, You will be automatically navigated to http://localhost:4200/. The app will automatically reload if you change any of the source files.
 
 ## Development server
 
