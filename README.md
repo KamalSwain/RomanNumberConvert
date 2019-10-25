@@ -6,10 +6,14 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Follow the steps to run the Application.
 
-1. Open terminal and clone repository from https://github.com/KamalSwain/RomanNumberConvert.git to local machine by using below cmd.
+1. Open terminal and clone repository from https://github.com/KamalSwain/RomanNumberConvert.git to your local machine by using below cmd.
 
           git clone https://github.com/KamalSwain/RomanNumberConvert.git
           
+2. Go inside the folder `RomanNumberConvert` path ->
+
+    ex : /c/Kamal/RomanNumberConvert
+
 2. Run `npm install` for installing dependencies.
 
 3. Run `ng s --open` for a dev server, You will be automatically navigated to http://localhost:4200/. The app will automatically reload if you change any of the source files.
