@@ -15,8 +15,12 @@ export class NumberToRomanComponent implements OnInit {
   ngOnInit() {
   }
 
+  /* Function getting called when user enters the number and submit from html template. */
+
   convertNumber(numb:number) : string {
     this.result ='';
+
+    // Storing default roman value to loop through.
     const romanFormat = {
       M: 1000,
       CM: 900,
@@ -33,19 +37,24 @@ export class NumberToRomanComponent implements OnInit {
       I: 1
   };
 
+
+    // Loop through the romanFormat object to get the key.
     // tslint:disable-next-line: forin
     for (let key in romanFormat) {
+      
+        // Returning the "KEY" directly if user entered number matched with "romanFormat" number.
       if (numb == romanFormat[key]) {
               return this.result += key;
           }
 
-      var checkIfBigNum = numb > romanFormat[key];
+      // if user entered number did not match with any "romanFormat". 
+      var checkIfBigNum = numb > romanFormat[key];   // checking if the entered number is bigger than any of the "romanFormat" number.
       if (checkIfBigNum) {
-          this.result = this.result + key.repeat(numb / romanFormat[key]);
-          numb = numb % romanFormat[key];
+          this.result = this.result + key.repeat(numb / romanFormat[key]);  // Repeating the "KEY" that many times after division quotient.
+          numb = numb % romanFormat[key]; // If reminder is  not 0 then setting numb variable to reminder value to iterate next match found
       }  
   }
-    return this.result;
+    return this.result;  // return the final result after all loop iteration done.
 }
 
 }
